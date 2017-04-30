@@ -21,7 +21,7 @@ void check_arguments(int argc, char* argv[]) {
 
   bool has_valid_args = false;
 
-  // make sure the user has provided input and output files
+  // This makes sure the user has provided input and output files
   if (argc == 1) {
     cerr << usage_instructions << endl;
   } else if (argc == 2) {
